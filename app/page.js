@@ -4,7 +4,7 @@ import { Footer } from "@/components";
 
 export default function Home() {
   return (
-    <>
+    <div >
       <Hero/>
       <About/>
       <Explore/>
@@ -13,6 +13,6 @@ export default function Home() {
       <World/>
       <Insights/>
       <Feedback/>
-    </>
+    </div>
   );
 }

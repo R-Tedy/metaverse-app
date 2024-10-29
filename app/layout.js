@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
       </head>
       
-      <body
+      <body className="bg-primary-black overflow-hidden"
       >
         <Navbar/>
         <main>
