@@ -1,17 +1,18 @@
-import CustomTexts from "./CustomTexts";
 import ExploreCard from "./ExploreCard";
 import Footer from "./Footer";
 import InsightCard from "./InsightCard";
 import Navbar from "./Navbar";
 import NewFeatures from "./NewFeatures";
 import StartSteps from "./StartSteps";
+import { TypingText ,TitleText} from "./CustomTexts";
 
 export {
-  CustomTexts,
+  TypingText,
   ExploreCard,
   Footer,
   InsightCard,
   Navbar,
   NewFeatures,
-  StartSteps
+  StartSteps,
+  TitleText
 }
