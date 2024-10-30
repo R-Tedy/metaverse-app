@@ -2,7 +2,7 @@ import styles from "@/styles"
 
 function NewFeatures({imgUrl, title, subtitle}) {
   return (
-    <div className={`${styles.flexStart} flex-col gap-4 sm:max-w-[250px] min-w-[225px]`}>
+    <div className={`${styles.flexStart} flex-col gap-4 sm:max-w-[250px] min-w-[210px]`}>
       <div className={`${styles.flexCenter} h-[70px] w-[70px] rounded-[24px] bg-[#323f5d]`}>
         <img
           src={imgUrl}

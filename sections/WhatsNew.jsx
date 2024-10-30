@@ -28,7 +28,7 @@ function WhatsNew() {
           <TitleText
             title={<>What's new about Metaversus</>}
           />
-          <div className={`flex flex-row flex-wrap justify-between gap-[36px] mt-[31px]`}>
+          <div className={`flex flex-row sm:flex-wrap justify-between  mt-[31px]`}>
             {newFeatures.map((feature, index)=>(
               <NewFeatures
                 key={index}
